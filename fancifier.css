@@ -1,3 +1,8 @@
 body {
-  background: #82CDE5
+  color: #303E68; /*default color fallback*/
+  font-family: Sans-serif; /*font*/
+  background: #FFFEFC; /*background color*/
+}
+h1 {
+  color: #303E68; /*h1 html color*/
 }
