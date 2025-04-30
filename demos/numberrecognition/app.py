@@ -7,7 +7,7 @@ import base64
 import io
 
 app = Flask(__name__)
-model = load_model('mnist_model.h5')
+model = load_model('model/mnist_model.h5')
 
 @app.route('/')
 def index():
